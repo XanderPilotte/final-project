@@ -11855,18 +11855,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.my-logo-custom {
-  max-width: 45%;
-}
-
 .nav-item {
   align-content: center;
 }
 
-nav {
+.navbar-nav {
+  background-color: #ffb2d8;
   display: flex;
   flex-wrap: inherit;
   justify-content: center;
+}
+
+.my-logo-custom {
+  max-width: 20%;
 }
 
 /*# sourceMappingURL=custom.css.map */

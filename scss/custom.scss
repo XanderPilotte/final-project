@@ -6,18 +6,28 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
-.my-logo-custom {
-  max-width: 45%;
-}
-
 .nav-item {
   align-content: center;
 }
 
-nav {
-  // background-color: #ffb2d8;
+.navbar-nav {
+  background-color: #ffb2d8;
   display: flex;
   flex-wrap: inherit;
   justify-content: center;
+  
 }
 
+.my-logo-custom {
+  max-width: 20%;
+
+}
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
