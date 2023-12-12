@@ -11855,8 +11855,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-:root {
-  --primary: $pink-300;
+.my-logo-custom {
+  max-width: 45%;
+}
+
+.nav-item {
+  align-content: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: inherit;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=custom.css.map */
